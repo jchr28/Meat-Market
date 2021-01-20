@@ -1,0 +1,48 @@
+body {
+    background-color: #FBFBFB;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    width: 1440px;
+    height: 2884px;
+    overflow-y: scroll;
+}
+
+.mainpic {
+    object-fit: cover;
+    float: right;
+    position: absolute;
+    width: 1143px;
+    height: 654px;
+    left: 297px;
+    top: 88px;
+    z-index: -1;
+}
+
+.square {
+    position: absolute;
+    width: 421px;
+    height: 388px;
+    left: 86px;
+    top: 221px;
+    box-shadow: 0px 60px 60px rgba(0, 0, 0, 0.1);
+    z-index: 5;
+}
+
+.desc {
+    position: absolute;
+    width: 363px;
+    height: 153px;
+    left: 115px;
+    top: 423px;
+    color: #363636;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.logo2 {
+    position: absolute;
+    width: 334px;
+    height: 65px;
+    left: 116px;
+    top: 258px;
+}
