@@ -1,10 +1,13 @@
 body {
-    background-color: #FBFBFB;
+    background-color: #f5f5f5;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     width: 1440px;
-    height: 2884px;
+    height: 2920px;
     overflow-y: scroll;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .mainpic {
@@ -18,6 +21,25 @@ body {
     z-index: -1;
 }
 
+.shop {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    top: 15px;
+    left: 20px;
+}
+
+.est {
+    position: relative;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 0.2em;
+    left: 30px;
+    top: 10px;
+    color: #8f8f8f;
+}
+
 .square {
     position: absolute;
     width: 421px;
@@ -26,23 +48,438 @@ body {
     top: 221px;
     box-shadow: 0px 60px 60px rgba(0, 0, 0, 0.1);
     z-index: 5;
+    background-color: white;
 }
 
 .desc {
-    position: absolute;
+    position: relative;
     width: 363px;
     height: 153px;
-    left: 115px;
-    top: 423px;
+    left: 30px;
+    top: 55px;
     color: #363636;
     line-height: 40px;
     font-size: 16px;
+    filter: opacity(80%);
+}
+
+.logo1 {
+    position: relative;
+    width: 200px;
+    height: 40px;
+    left: 30px;
+    top: 20px;
 }
 
 .logo2 {
-    position: absolute;
+    position: relative;
     width: 334px;
     height: 65px;
-    left: 116px;
-    top: 258px;
+    left: 30px;
+    top: 25px;
+}
+
+.greenline {
+    position: absolute;
+    width: 50px;
+    height: 7px;
+    border-radius: 7px;
+    left: 30px;
+    top: 160px;
+    background-color: #60A626;
+}
+
+.greenline2 {
+    position: absolute;
+    width: 50px;
+    height: 7px;
+    border-radius: 7px;
+    left: 86px;
+    top: 1570px;
+    background-color: #363636;
+}
+
+.mainproduct {
+    position: relative;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #363636;
+    top: 750px;
+}
+
+.prod {
+    color: #60A626;
+}
+
+.prodlist {
+    position: relative;
+    width: 215px;
+    height: 281px;
+    top: 790px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+   
+}
+
+.prodpic {
+    position: absolute;
+    width: 215px;
+    height: 215px;
+    object-fit: cover;
+}
+
+.prodname {
+    position: relative;
+    display: block;
+    text-align: center;
+    top: 225px;
+    color: #616161;
+    font-size: 14px;
+}
+
+.prodpos {
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    position: absolute;
+    left: 869px;
+    top: 0px;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 0.2em;
+}
+
+.navlist {
+    display: inline-block;
+    padding: 5px 20px 5px 20px;
+    margin-left: 30px;
+    font-size: 14px;
+    position: relative;
+    top: -5px;
+}
+
+.navlist:hover {
+    color: #60A626;
+}
+
+.line {
+    position: absolute;
+width: 1275px;
+height: 0px;
+left: 86px;
+top: 1300px;
+border: 1px solid rgba(0, 0, 0, 0.3);
+filter: opacity(30%);
+}
+
+.line3 {
+    position: relative;
+    width: 1275px;
+    height: 0px;
+    left: 86px;
+    top: 1250px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    filter: opacity(30%);
+}
+
+h1 {
+    position: absolute;
+width: 190px;
+height: 180px;
+left: 86px;
+top: 1336px;
+font-size: 36px;
+line-height: 60px;
+letter-spacing: 0.2em;
+color: #60A626;
+}
+
+.ourpic {
+    position: absolute;
+    object-fit: cover;
+width: 788px;
+height: 491px;
+left: 573px;
+top: 1362px;
+}
+
+.our {
+    position: absolute;
+width: 325px;
+height: 397px;
+left: 416px;
+top: 1410px;
+background: #FFFFFF;
+box-shadow: 0px 60px 60px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    position: absolute;
+width: 224px;
+height: 40px;
+left: 25px;
+top: 10px;
+font-size: 24px;
+line-height: 40px;
+color: #60A626;
+}
+
+.line2 {
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    filter: opacity(30%);
+    width: 270px;
+    left: 25px;
+    top: 85px;
+}
+
+.ourdesc {
+    position: absolute;
+width: 269px;
+height: 117px;
+left: 25px;
+top: 90px;
+font-size: 16px;
+line-height: 40px;
+color: #363636;
+filter: opacity(80%);
+}
+
+.ourdesc2 {
+    position: absolute;
+width: 269px;
+height: 317px;
+left: 25px;
+top: 90px;
+font-size: 16px;
+line-height: 40px;
+color: #363636;
+filter: opacity(80%);
+}
+
+.ourbardesc {
+    position: relative;
+    width: 38px;
+    height: 30px;
+    left: 25px;
+    top: 230px;
+    font-size: 16px;
+    color: #A0A0A0;
+}
+
+.ourbardesc2 {
+    position: relative;
+    width: 38px;
+    height: 30px;
+    left: 240px;
+    top: 138px;
+    font-size: 16px;
+color: #60A626;
+}
+
+.ourbargray {
+    position: relative;
+    width: 150px;
+    height: 3px;
+    left: 75px;
+    top: 55px;
+    background-color: #cacaca;
+    border-radius: 3px;
+}
+
+.ourbargreen {
+    position: relative;
+    width: 120px;
+    height: 3px;
+    left: 75px;
+    top: 52px;
+    background-color: #60A626;
+    border-radius: 3px;
+    z-index: 2;
+}
+
+.ourbargray2 {
+    position: relative;
+    width: 150px;
+    height: 3px;
+    left: 75px;
+    top: 95px;
+    background-color: #cacaca;
+    border-radius: 3px;
+}
+
+.ourbargreen2 {
+    position: relative;
+    width: 140px;
+    height: 3px;
+    left: 75px;
+    top: 92px;
+    background-color: #60A626;
+    border-radius: 3px;
+    z-index: 2;
+}
+
+.arrow1 {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    left: 180px;
+    top: 120px;
+}
+
+.arrow2 {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    left: 70px;
+    top: 120px;
+}
+
+.arrow3 {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    left: 180px;
+    top: 330px;
+}
+
+.arrow4 {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    left: 70px;
+    top: 330px; 
+}
+
+.ourmenu1 {
+    position: relative;
+    width: 124px;
+    height: 46px;
+    left: 87px;
+    top: 1182px;  
+    font-size: 20px;   
+    color: #adadad;   
+}
+.ourmenu1:hover {
+    color: #60A626;
+    filter: opacity(100%);
+}
+
+.homemade {
+    position: absolute;
+    top: 600px;
+}
+
+.ourmenu2 {
+    position: relative;
+    width: 224px;
+    height: 46px;
+    left: 87px;
+    top: 1612px;  
+    font-size: 20px;  
+    color: #adadad;    
+}
+.ourmenu2:hover {
+    color: #60A626;
+    filter: opacity(100%);
+}
+
+.logofooter {
+    position: relative;
+    width: 200px;
+    height: 40px;
+    top: 1972px;
+    left: 87px;
+}
+
+.address {
+    position: relative;
+    width: 300px;
+    height: 118px;
+    left: 87px;
+    top: 1990px;
+    filter: opacity(70%);
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.purchasing {
+    position: relative;
+    width: 224px;
+    height: 46px;
+    left: 717px;
+    top: 1800px;  
+    font-size: 16px;  
+    color: #60A626;
+}
+
+.purchasinglist {
+    position: relative;
+    width: 224px;
+    height: 32px;
+    left: 717px;
+    top: 1800px;  
+    font-size: 14px;  
+    color: #8a8a8a;
+}
+.purchasinglist:hover {
+    color: #60A626;
+}
+
+.about {
+    position: relative;
+    width: 224px;
+    height: 46px;
+    left: 987px;
+    top: 1598px;  
+    font-size: 16px;  
+    color: #60A626;
+}
+
+.aboutlist {
+    position: relative;
+    width: 224px;
+    height: 32px;
+    left: 987px;
+    top: 1595px;  
+    font-size: 14px;  
+    color: #8a8a8a;
+}
+.aboutlist:hover {
+    color: #60A626;
+}
+
+.social {
+    position: relative;
+    width: 224px;
+    height: 46px;
+    left: 1257px;
+    top: 1395px;  
+    font-size: 16px;  
+    color: #60A626;
+}
+
+.sociallist {
+    position: relative;
+    width: 224px;
+    height: 32px;
+    left: 1257px;
+    top: 1394px;  
+    font-size: 14px;  
+    color: #8a8a8a;
+}
+.sociallist:hover {
+    color: #60A626;
+}
+
+.copyright {
+    position: relative;
+    top: 1420px;
+    text-align: center;
+    font-size: 12px;
+    color: #60A626;
 }
