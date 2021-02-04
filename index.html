@@ -5,6 +5,30 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
+<script>
+  console.log('test');
+  // Create button function
+  // Get id usernameInput
+  // Generate Value to heading
+
+  function register(){
+    let input = document.getElementById('usernameInput').value
+    let headingMeatMenu = document.getElementById('heading-meat-menu')
+    let description = document.getElementById('desc')
+    let green = document.getElementsByClassName('ourbargreen')[0]
+    let green2 = document.getElementsByClassName('ourbargreen2') [0]
+    console.log('green', green);
+
+description.innerHTML = 'lorem ipsum dolor sit amet asdmmasd mkgiksdg ijiksdkjfka kjnasknas  adknkasdknksad';
+headingMeatMenu.innerHTML = 'Sirloin';
+green.classList.add("width-50");
+// green.innerHTML = 
+console.log('green2',green2);
+green2.classList.add("width-70");
+
+  }
+</script>
+
 <body>
   <div class="navbar-container">
     <img class="logo1" src="Meat Marketvect.png" alt="">
@@ -74,9 +98,9 @@
       src="https://cms.sehatq.com/public/img/article_img/perbedaan-sirloin-dan-tenderloin-yang-wajib-diketahui-pecinta-steak-1578293883.jpg"
       alt="">
     <div class="our">
-      <h2>Tenderloin</h2>
+      <h2 id="heading-meat-menu">Tenderloin</h2>
       <div class="line2"></div>
-      <p class="ourdesc">Our tenderloin has extraordinary vigor beyond your expectation. Its juiciness melts in your
+      <p id='desc' class="ourdesc">Our tenderloin has extraordinary vigor beyond your expectation. Its juiciness melts in your
         mouth.</p>
       <p class="ourbardesc"><strong>Hard</strong></p>
       <p class="ourbardesc"><strong>Dry</strong></p>
@@ -85,15 +109,15 @@
 
       <div>
         <div class="ourbargray"></div>
-        <div class="ourbargreen"></div>
+        <div id='medium' class="ourbargreen transition-half"></div>
       </div>
       <div>
         <div class="ourbargray2"></div>
-        <div class="ourbargreen2"></div>
+        <div id='medium2' class="ourbargreen2 transition-half"></div>
       </div>
 
-      <img class="arrow1" src="Group 13.svg" alt="">
-      <img class="arrow2" src="Group 12.svg" alt="">
+      <img class="arrow1 cursor-pointer" src="Group 13.svg" onclick="register()" alt="">
+      <img class="arrow2 cursor-pointer" src="Group 12.svg" alt="">
 
     </div>
   </div>
@@ -150,6 +174,10 @@
   </div>
 
   <p class="copyright">Copyright @2021 by Joy Christian / jchr28 (GitHub)</p>
+
+  <input id='usernameInput' type='text' placeholder='Anjing'>
+  <button class="button-babi" onclick="register()">GENERATE SI BABI</button>
+  <p id='siBabi'></p>
 </body>
 
 </html>
